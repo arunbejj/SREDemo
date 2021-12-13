@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-grafana
+  labels:
+    app: demo-grafana
+spec:
+  selector:
+    matchLabels:
+      app: demo-grafana
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: demo-grafana
+    spec:
+      containers:
+      - name: demo-grafana
+        image: docker.io/grafana/grafana:latest
+        ports:
+        - containerPort: 3000

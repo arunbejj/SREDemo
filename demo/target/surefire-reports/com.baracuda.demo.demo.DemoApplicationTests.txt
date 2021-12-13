@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.baracuda.demo.demo.DemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.621 s - in com.baracuda.demo.demo.DemoApplicationTests

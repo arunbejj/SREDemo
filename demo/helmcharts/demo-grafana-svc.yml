@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: demo-grafana-service
+spec:
+  selector:
+    app: demo-grafana
+  ports:
+    - name: grafana
+      protocol: TCP
+      port: 3000
+      targetPort: 3000
+  clusterIP: 10.0.103.184
+  type: LoadBalancer

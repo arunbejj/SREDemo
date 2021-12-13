@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: demo-app-service
+spec:
+  selector:
+    app: demo-app
+  ports:
+    - name: default80
+      protocol: TCP
+      port: 80
+      targetPort: 8080
+    - name: hellworld
+      protocol: TCP
+      port: 8080
+      targetPort: 8080
+    - name: actuator
+      protocol: TCP
+      port: 9999
+      targetPort: 9999
+  clusterIP: 10.0.103.182
+  type: LoadBalancer
