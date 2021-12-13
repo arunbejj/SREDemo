@@ -16,7 +16,6 @@ In this demo Prometheus monitoring instrumented and displayed metrics in Grafana
 - Grafana --> http://40.65.211.126:3000/
 
 #### Docker images:
-docker.io/arunbejj/demo4barrcuda
 - Hello World API --> docker.io/arunbejj/demo4barrcuda
 - Actuator -->  docker.io/arunbejj/demo4barrcuda
 - Prometheus --> docker.io/prom/prometheus 
