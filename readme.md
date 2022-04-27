@@ -1,3 +1,4 @@
+Changes here for testing 1.0.1 release
 # SRE Demo Project 
 In this demo Prometheus monitoring instrumented and displayed metrics in Grafana for applciation running in Azure Kubernetes Cluster (AKS). Application is developed in spring boot java. Two applciation APIs are helloworld, actuator micrometer for metric exporter. Seperate containers for Prometheus and Grafana are depployed to AKS.
 
